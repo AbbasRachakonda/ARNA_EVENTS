@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.Home-background{
+    position: relative;
+    background: url('./img/Image1.jpg');
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    padding: 0 2em;
+}
+
+.fixed-top{
+    background-color: rgb(231, 238, 238);
+    width: 100%;
+    margin:0;
+    right: 0;
+    height: 60px;
+    position: fixed;
+}
+.logo{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.fixed-top .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*Dropdown Menu */
+.dropdown-menu{
+    display:none;
+    position: absolute;
+    right: 5rem;
+    top:60px;
+    overflow: hidden;
+    height:500px;
+    line-height:300%;
+}
+
+.dropdown-menu li a{
+    padding:5px 1px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.dropdown-menu{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.dropdown-menu a:hover{
+    color: orange;
+}
+
+
+/* -----Contact-----*/
+.Cont-background{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.Contact{
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.form{
+    width: 20px;
+    height: 10px;
+    padding: 0px 250px;
+}
+
+.GetinTouch{
+    color: rgb(253, 252, 252);
+    padding: 10px 250px;
+}
+
+
+/*-----Service------*/
+.Ser-background{
+    position: relative;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin: 0;
+}
+
+/*-----Gallary----*/
+.Gallary-background{
+    position: relative;
+    background-color: rgb(0, 229, 255);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin: 0;
+}
+
+/*----About Us----*/
+.Aboutus{
+    position: relative;
+    background-color: rgb(0, 255, 132);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    margin: 0;
+}
