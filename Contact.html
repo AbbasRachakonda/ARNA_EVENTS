@@ -7,37 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="Cont-background">
-            <div class="Contact">
-                <h2>Call Us</h2>
-                <p>+91 90147805645</p>
-                <h2>Email Adderss </h2>
-                <p>Arnaevents@info.com</p>
-                <h2>Adderss</h2>
-                <p>Arnaevents,Suryapet</p>
-            </div>
-            <div class="GetinTouch">
-                <h1>GetinTouch</h1>
-                <div class="form">
-                    <form method="post">
-                        Name: <input type="text" name="name" id="name" class="name" placeholder="Enter Name">
-                        Mobile:<input type="tel" name="name" id="name" class="name" placeholder="Enter Mobile Number"><br><br>
-                        <textarea name="message" id="message" class="message" placeholder="Enter Any information"></textarea>
-                        <button type="Submit">Submit</button>
-                    </form>
-                </div>
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./Sevices.html">SERVICES</a></li>
-                    <li><a href="./Gallary.html">Gallary</a></li>
-                    <li><a href="./About Us.html">About Us</a></li>
-                    <li><a href="./Contact.html">Contact</a></li>
-                </ul>         
-            </div>
+    <div class="fixed-top">
+        <div class="logo"><a href="./index.html">Arna Events</a></div>
+    </div>
+    <div class="Cont-background">
+        <div class="box1">
+            <h2 class="Contact">Call Us</h2>
+            <p><img src="./img/icons8-call-50.png"> 90147805645</p>
+            <p><img src="./img/icons8-email-50.png">info@arna.com</p>
+            <p><img src="./img/icons8-address-50.png">Arnaevents,Seeta Rama Function Hall,Suryapet</p>     
+        </div>
+        <div class="box2">
+            <h1 class="GetinTouch">Getin Touch</h1>
+            <form method="post" action="">
+                <input type="text" name="name" class="name" placeholder="Name" required>
+                <input type="tel" name="name" class="name" placeholder="Mobile Number" required>
+                <input type="text" name="email" class="email" placeholder="Email">
+                <textarea name="message" class="message" placeholder="Message" required></textarea>
+                <input type="Submit" name="submit" class="submit">
+            </form>
+            <div class="icon-box">
+                <img src="./img/icons8-message-96.png" class="icon">
             </div>
         </div>
-    </header>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./Sevices.html">SERVICES</a></li>
+                <li><a href="./Gallary.html">Gallary</a></li>
+                <li><a href="./About Us.html">About Us</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>         
+        </div>
+    </div>     
 </body>
 </html>
